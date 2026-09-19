@@ -1,0 +1,1 @@
+ERRO SINTATICO: expressao invalida: encontrado ']' (RBRACKET) (linha 1, coluna 26)

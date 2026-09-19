@@ -1,0 +1,1 @@
+ERRO SINTATICO: expressao invalida: encontrado 'else' (ELSE) (linha 1, coluna 14)

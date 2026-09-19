@@ -1,0 +1,1 @@
+ERRO SINTATICO: expressao invalida: encontrado '/' (SLASH) (linha 1, coluna 13)

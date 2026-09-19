@@ -1,0 +1,1 @@
+ERRO SINTATICO: esperado um tipo (int, float, bool, char, void), encontrado '{' (LBRACE) (linha 1, coluna 11)

@@ -1,0 +1,1 @@
+ERRO SINTATICO: expressao invalida: encontrado '=' (ASSIGN) (linha 1, coluna 14)

@@ -1,0 +1,1 @@
+ERRO SINTATICO: esperado ')', encontrado ';' (SEMICOLON) (linha 1, coluna 22)

@@ -1,0 +1,1 @@
+ERRO SINTATICO: esperado um identificador, encontrado ';' (SEMICOLON) (linha 1, coluna 5)

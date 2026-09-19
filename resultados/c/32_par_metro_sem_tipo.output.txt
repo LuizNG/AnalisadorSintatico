@@ -1,0 +1,1 @@
+ERRO SINTATICO: esperado um tipo (int, float, bool, char, void), encontrado 'a' (IDENT) (linha 1, coluna 10)

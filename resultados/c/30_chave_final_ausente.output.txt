@@ -1,0 +1,1 @@
+ERRO SINTATICO: esperado '}', encontrado '' (EOF) (linha 2, coluna 1)

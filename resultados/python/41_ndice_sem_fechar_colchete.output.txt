@@ -1,0 +1,1 @@
+ERRO SINTATICO: lado esquerdo de '=' invalido (esperado um identificador ou um elemento de vetor) (linha 1, coluna 28)

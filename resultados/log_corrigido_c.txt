@@ -1,0 +1,63 @@
+== Compilando o analisador sintatico ==
+Executavel gerado: ./parser
+Parser: ./parser
+Diretório: testes-parser-50/casos
+Casos encontrados: 50
+[01/50] 01_declara_o_inteira_simples                  OK
+[02/50] 02_inicializa_o_inteira                       OK
+[03/50] 03_express_o_aritm_tica_e_preced_ncia         OK
+[04/50] 04_v_rias_declara_es_globais                  OK
+[05/50] 05_fun_o_sem_par_metros                       OK
+[06/50] 06_fun_o_com_par_metros                       OK
+[07/50] 07_atribui_o_simples                          OK
+[08/50] 08_if_sem_else                                OK
+[09/50] 09_if_com_else                                OK
+[10/50] 10_while                                      OK
+[11/50] 11_bloco_aninhado                             OK
+[12/50] 12_operadores_relacionais                     OK
+[13/50] 13_operador_un_rio                            OK
+[14/50] 14_chamada_sem_argumentos                     OK
+[15/50] 15_chamada_com_argumentos                     OK
+[16/50] 16_vetor_com_tamanho                          OK
+[17/50] 17_indexa_o_de_vetor                          OK
+[18/50] 18_express_o_com_par_nteses                   OK
+[19/50] 19_float_e_compara_o                          OK
+[20/50] 20_retorno_vazio                              OK
+[21/50] 21_fun_o_com_v_rios_comandos                  OK
+[22/50] 22_atribui_o_associativa                      OK
+[23/50] 23_condicionais_aninhados                     OK
+[24/50] 24_la_o_com_express_o_complexa                FALHOU (AST diferente)
+  esperado: Program(Function(int main() Block(VarDecl(int i=Lit(int,0)), While(Binary(||,Binary(<,Id(i),Lit(int,3)),Binary(==,Id(i),Lit(int,9))),Block(ExprStmt(Assign(Id(i),Binary(+,Id(i),Lit(int,1))))))), Return(Id(i)))))
+  obtido:   Program(Function(int main() Block(VarDecl(int i=Lit(int,0)),While(Binary(||,Binary(<,Id(i),Lit(int,3)),Binary(==,Id(i),Lit(int,9))),Block(ExprStmt(Assign(Id(i),Binary(+,Id(i),Lit(int,1)))))),Return(Id(i)))))
+[25/50] 25_programa_integrado                         OK
+[26/50] 26_ponto_e_v_rgula_ausente_em_declara_o       OK (rejeitado corretamente)
+[27/50] 27_ponto_e_v_rgula_ausente_ap_s_express_o     OK (rejeitado corretamente)
+[28/50] 28_par_ntese_de_condi_o_ausente               OK (rejeitado corretamente)
+[29/50] 29_chave_de_bloco_ausente                     OK (rejeitado corretamente)
+[30/50] 30_chave_final_ausente                        OK (rejeitado corretamente)
+[31/50] 31_par_ntese_final_de_fun_o_ausente           OK (rejeitado corretamente)
+[32/50] 32_par_metro_sem_tipo                         OK (rejeitado corretamente)
+[33/50] 33_par_metro_sem_identificador                OK (rejeitado corretamente)
+[34/50] 34_v_rgula_extra_nos_par_metros               OK (rejeitado corretamente)
+[35/50] 35_inicializador_sem_express_o                OK (rejeitado corretamente)
+[36/50] 36_operador_sem_operando                      OK (rejeitado corretamente)
+[37/50] 37_dois_operadores_consecutivos               OK (rejeitado corretamente)
+[38/50] 38_atribui_o_sem_destino                      OK (rejeitado corretamente)
+[39/50] 39_chamada_sem_fechar_par_ntese               OK (rejeitado corretamente)
+[40/50] 40_v_rgula_sem_argumento                      OK (rejeitado corretamente)
+[41/50] 41_ndice_sem_fechar_colchete                  OK (rejeitado corretamente)
+[42/50] 42_ndice_sem_express_o                        OK (rejeitado corretamente)
+[43/50] 43_while_sem_corpo                            OK (rejeitado corretamente)
+[44/50] 44_else_sem_if                                OK (rejeitado corretamente)
+[45/50] 45_return_sem_ponto_e_v_rgula                 OK (rejeitado corretamente)
+[46/50] 46_tipo_sem_nome                              OK (rejeitado corretamente)
+[47/50] 47_declara_o_local_inv_lida                   OK (rejeitado corretamente)
+[48/50] 48_fun_o_sem_corpo                            OK (rejeitado corretamente)
+[49/50] 49_fechamento_extra                           OK (rejeitado corretamente)
+[50/50] 50_condi_o_vazia                              OK (rejeitado corretamente)
+
+Resumo
+-------
+Total de casos: 50
+Aprovados: 49
+Reprovados: 1

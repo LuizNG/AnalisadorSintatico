@@ -1,0 +1,1 @@
+ERRO SINTATICO: esperado ';', encontrado 'return' (RETURN) (linha 1, coluna 20)
